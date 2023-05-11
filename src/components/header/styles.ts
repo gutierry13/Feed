@@ -1,6 +1,6 @@
 import styled from "styled-components";
 export const Container = styled.header`
-  background-color: var(--gray-800);
+  background-color: var(--grey-800);
   display: flex;
   align-items: center;
   justify-content: center;

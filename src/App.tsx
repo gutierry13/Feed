@@ -4,12 +4,17 @@ import { Sidebar } from './components/sidebar/Sidebar'
 import './global.css'
 function App() {
 
+
   return (
     <>
     <Header/>
     <div className='wrapper'>
       <Sidebar/>
+      <div className="post">
       <Post/>
+      <Post/>
+      </div>
+
     </div>
     </>
   )

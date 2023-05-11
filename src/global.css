@@ -1,27 +1,33 @@
 :root{
   --white: #FFFFFF;
 
-  --gray-100:#e1e1e6;
-  --gray-300:#c4c4cc;
-  --gray-400:#8d8d99;
-  --gray-600:#323238;
-  --gray-700:#29292e;
-  --gray-800:#202024;
-  --gray-900:#121214;
+  --grey-100:#e1e1e6;
+  --grey-300:#c4c4cc;
+  --grey-400:#8d8d99;
+  --grey-600:#323238;
+  --grey-700:#29292e;
+  --grey-800:#202024;
+  --grey-900:#121214;
 
+  --green-300:#00b37e;
   --green-500:#00875f;
+
+  --red-500:#f75a68;
 
 
 }
-
+:focus{
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--green-500);
+}
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body{
-  background-color: var(--gray-900);
-  color:var(--gray-300);
+  background-color: var(--grey-900);
+  color:var(--grey-300);
   -webkit-font-smoothing: antialiased;
 }
 body,input,textarea{
@@ -38,4 +44,8 @@ body,input,textarea{
   grid-template-columns: 256px 1fr;
   gap: 2rem;
   align-items: flex-start;
+}
+.symbol-count::before{
+  content: '\2022';
+  padding: 0 0.25rem;
 }
