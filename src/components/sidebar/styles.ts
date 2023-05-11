@@ -1,6 +1,6 @@
 import styled from "styled-components";
 export const Aside = styled.aside`
-  background-color: var(--gray-800);
+  background-color: var(--grey-800);
   border-radius: 8px;
   overflow: hidden;
   img{
@@ -19,24 +19,24 @@ export const Aside = styled.aside`
       width: 3rem;
       height: 3rem;
       border-radius: 8px;
-      border: 4px solid var(--gray-800);
+      border: 4px solid var(--grey-800);
       outline: 2px solid var(--green-500);
       margin-top: -2rem;
       
     }
     strong{
       margin-top: 1rem;
-      color: var(--gray-100);
+      color: var(--grey-100);
       line-height: 1.6;
     }
     span{
       font-size: 0.875rem;
-      color: var(--gray-400);
+      color: var(--grey-400);
       line-height: 1.6;
     }
   }
   footer{
-    border-top: 1px solid var(--gray-600);
+    border-top: 1px solid var(--grey-600);
     margin-top: 1.5rem;
     padding: 1.5rem 2rem 2rem;
     a{
