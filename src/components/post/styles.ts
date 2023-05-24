@@ -99,8 +99,12 @@ export const Form = styled.form`
     cursor: pointer;
     transition: background-color .2s;
 
-    &:hover{
+    &:not(:disabled):hover{
       background-color: var(--green-300);
+    }
+    &:disabled{
+      opacity: .5;
+      cursor: not-allowed;
     }
   }
   }
